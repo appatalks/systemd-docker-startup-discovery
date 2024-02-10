@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Startup Discovery
-# Tested on Ubuntu 20.04 Based OS
+#
 # Lists Service Startup Sequence and latency to complete. 
 # Uses journalctl and systemd-analyze blame to review start time and latency to complete sequence since last boot.
 #
